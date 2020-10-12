@@ -1,0 +1,37 @@
+@media only screen and (max-width: 900px) {
+    .menu_nav {
+        margin-right: 20px;
+    }
+    .menu_nav a {
+        // padding: 35px 0;
+        margin: 0 15px;
+      }
+      
+    h4 {
+        margin-left: 20px;
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu.wider {
+        height: 120px;
+    }
+    .menu_nav a {
+        padding: 15px 0;
+        margin: 0 10px
+    }
+    .ham-span {
+        display: flex;
+    }
+    .menu_nav {
+        display: none;
+        // flex-direction: column;
+    }
+    .menu_nav.active {
+        display: flex;
+    }
+}
