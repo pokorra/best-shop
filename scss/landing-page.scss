@@ -471,14 +471,13 @@ body {
 
 .section4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 form {
   display: flex;
   flex-direction: column;
   width: 440px;
-  margin-left: 120px;
 }
 
 .section4 h1~p {
@@ -486,6 +485,7 @@ form {
   padding-bottom: 42px;
 }
 
+.section4_mid_div,
 .section4_small_div {
   display: flex;
   align-items: center;
@@ -571,10 +571,7 @@ footer p {
   margin: 0 0 17px 135px;
 }
 
-footer:last-child {
-  padding-right: 135px;
-}
 
-footer img {
-  padding-left: 20px;
+.footer_pic {
+  padding-right: 20px;
 }

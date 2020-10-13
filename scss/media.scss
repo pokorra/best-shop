@@ -75,6 +75,22 @@
     .section3 {
         flex-wrap: wrap;
     }
+    //section4, contact:
+    .section4 {
+        flex-direction: column;
+        margin-left: 10vw;
+    }
+    form {
+        margin-top: 10px;
+        width: 80vw;
+    }
+    form button {
+        align-self: center;
+    }
+    //footer
+    footer p {
+        margin: 0 15px 15px;
+    }
   }
   
 @media only screen and (max-width: 600px) {
@@ -178,4 +194,32 @@
     .pricing_h2 {
         font-size: 30px;
     }
+    //section4:
+    .section4 {
+        margin-left: 5vw;
+    }
+    .section4 h1~p {
+        text-align: left;
+    }
+    .section4_mid_div {
+        flex-wrap: wrap;
+    }
+    form {
+        width: 90vw;
+    }
+    input[type=text], input[type=email] {
+        width: 85vw;
+    }
+    label[for=checkbox] {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    //footer
+    .footer_pics {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer_pic {
+        padding: 8px;
+      }
 }
