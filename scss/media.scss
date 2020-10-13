@@ -68,6 +68,13 @@
         font-size: 14px;
         text-align: left;
     }
+    //section3, prices:
+    .pricing_h2 {
+        font-size: 35px;
+    }
+    .section3 {
+        flex-wrap: wrap;
+    }
   }
   
 @media only screen and (max-width: 600px) {
@@ -87,7 +94,6 @@
     }
     .menu_nav {
         display: none;
-        // flex-direction: column;
     }
     .menu_nav.active {
         display: flex;
@@ -139,10 +145,16 @@
     }
     //section2:
     .section2_list {
-        height: 90vw;
+        height: 60vh;
+        width: 80vw;
+    }
+    .el_first::after {
+        top: 80%;
+        right: 20%;
     }
     .el_third::after {
-        top: 60vw;
+        top: 40vh;
+        height: 20vh;
     }
     h3 {
         font-size: 22px;
@@ -161,5 +173,9 @@
         height: 270px;
         width: 65vw;
         justify-content: space-evenly;
+    }
+    //section3:
+    .pricing_h2 {
+        font-size: 30px;
     }
 }
