@@ -18,7 +18,7 @@
     .main_part {
         height: 55vw;
     }
-    //section1
+    //section1:
     h2 {
         font-size: 30px;
     }
@@ -26,8 +26,47 @@
         padding: 10px 10px 0;
         margin: 20px 30px;
     }
-    .sales_platform_list li p {
-        
+    //section2:
+    .section2_list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        // border: 1px solid blue;
+        width: 70vw;
+        height: 80vw;
+    }
+    .section2_img1 {
+        margin: 0;
+    }
+    .el_first::after {
+        top: 70%;
+    }
+    .el_third::after {
+        bottom: 0px;
+        top: 50vw;
+        left: 15vw;
+        height: 30vw;
+        width: 40vw;
+    }
+    .section2 div,
+    .el_third div {
+        height: 270px;
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        border: none;
+    } 
+    h3 {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 20px 0;
+    }
+    .text2 {
+        font-size: 14px;
+        text-align: left;
     }
   }
   
@@ -60,7 +99,6 @@
     }
     .span-cross:nth-child(2) {
         opacity: 0;
-        // left: -50px;
     }
     .span-cross:last-child {
         top: 15px;
@@ -70,7 +108,6 @@
     .main_part {
         height: 65vw;
     }
-
     h1 {
         font-size: 35px;
     }
@@ -88,14 +125,41 @@
     .main-part {
         background-size: contain;
     }
-
     //section1:
     h2 {
         font-size: 25px;
         padding: 60px 0;
     }
-    
+    .sales_platform_list {
+        height: 55vh;
+        flex-wrap: wrap;
+    }
     .sales_platform_list li {
-        margin: 20px 15px;
+        margin: 20px 10px;
+    }
+    //section2:
+    .section2_list {
+        height: 90vw;
+    }
+    .el_third::after {
+        top: 60vw;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .text2 {
+        font-size: 12px;
+        text-align: left;
+    }
+    .underline {
+        margin-top: 10px;
+    }
+
+    .section2 div,
+    .el_third div {
+        height: 270px;
+        width: 65vw;
+        justify-content: space-evenly;
     }
 }

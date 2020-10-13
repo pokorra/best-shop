@@ -164,7 +164,7 @@ body {
   .sales_platform_list {
     display: flex;
     justify-content: space-around;
-    height: 50vh;
+    height: 40vh;
   }
   
   .sales_platform_list li {
@@ -244,11 +244,11 @@ body {
   
   .section2_list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: relative;
     margin-top: 36px;
     height: 370px;
-    width: 1124px;
+    width: 90vw;
     background-color: #FFFFFF;
   
   }
@@ -262,8 +262,10 @@ body {
   }
   
   .section2_img1 {
-    width: 385px;
-    height: 220px;
+    // width: 385px;
+    // height: 220px;
+    width: 36vw;
+    height: 18vw;
     position: relative;
     z-index: 2;
     margin-top: 115px;
@@ -272,8 +274,10 @@ body {
   
   .el_first::after {
     content: "";
-    width: 180px;
-    height: 180px;
+    // width: 180px;
+    // height: 180px;
+    width: 16vw;
+    height: 16vw;
     background-color: #FB3B64;
     transform: rotate(45deg);
     border-radius: 20%;
@@ -283,8 +287,10 @@ body {
   }
   
   .section2_img2 {
-    width: 425px;
-    height: 330px;
+    // width: 425px;
+    // height: 330px;
+    width: 36vw;
+    height: 30vw;
     position: relative;
     margin-left: 70px;
     margin-top: 30px;
@@ -293,8 +299,10 @@ body {
   
   .el_second::before {
     content: "";
-    height: 320px;
-    width: 320px;
+    // height: 320px;
+    // width: 320px;
+    height: 30vw;
+    width: 30vw;
     background-color: #07ACE6;
     border-radius: 50%;
     position: absolute;
@@ -303,19 +311,23 @@ body {
   }
   
   .section2_img3 {
-    width: 295px;
-    height: 210px;
+    // width: 295px;
+    // height: 210px;
+    width: 29vw;
+    height: 22vw;
     position: relative;
     margin-right: 80px;
     margin-top: 100px;
     z-index: 5;
   }
+
   
   .el_third::after {
     content: "";
     background-color: #55DFB4;
-    height: 370px;
-    width: 440px;
+    // height: 370px;
+    height: 40vw;
+    width: 40vw;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -329,14 +341,12 @@ body {
   }
   
   .section2 div {
-    width: 500px;
+    width: 30vw;
     height: 370px;
-    padding-left: 35px;
-    padding-right: 36px;
   }
   
   .el_third div {
-    width: 684px;
+    width: 40vw;
     height: 370px;
     border-right: 61px solid #F7F7F7;
     padding-right: 55px;
@@ -345,9 +355,9 @@ body {
   .underline {
     display: block;
     height: 4px;
-    width: 328px;
+    width: 30vw;
     background-color: #FB3B64;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   
   .el_second .underline {
