@@ -10,6 +10,25 @@
     h4 {
         margin-left: 20px;
     }
+
+    //btn Open your shop
+    .btn_center {
+        width: 50%;
+    }
+    .main_part {
+        height: 55vw;
+    }
+    //section1
+    h2 {
+        font-size: 30px;
+    }
+    .sales_platform_list li {
+        padding: 10px 10px 0;
+        margin: 20px 30px;
+    }
+    .sales_platform_list li p {
+        
+    }
   }
   
 @media only screen and (max-width: 600px) {
@@ -33,5 +52,50 @@
     }
     .menu_nav.active {
         display: flex;
+    }
+    // hamburger crossing:
+    .span-cross:first-child {
+        top: 15px;
+        transform: rotate(135deg);
+    }
+    .span-cross:nth-child(2) {
+        opacity: 0;
+        // left: -50px;
+    }
+    .span-cross:last-child {
+        top: 15px;
+        transform: rotate(-135deg);
+    }
+    //main part:
+    .main_part {
+        height: 65vw;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    .text {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 15px;
+        text-align: center;
+    }
+    //btn Open your shop
+    .btn_center {
+        width: 60%;
+    }
+    //background picture
+    .main-part {
+        background-size: contain;
+    }
+
+    //section1:
+    h2 {
+        font-size: 25px;
+        padding: 60px 0;
+    }
+    
+    .sales_platform_list li {
+        margin: 20px 15px;
     }
 }

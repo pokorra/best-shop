@@ -96,14 +96,16 @@ body {
   
   h1 {
     font-size: 49px;
+    margin-top: 15px;
   }
   
   .main_part {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 705px;
+    height: 45vw;
     background-image: url(../assets/Background.png);
+    background-size: contain;
     background-position: center bottom;
     background-repeat: no-repeat;
     margin-top: 120px;
@@ -122,6 +124,9 @@ body {
   }
   
   .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Open Sans";
     font-size: 13px;
     font-weight: bold;
@@ -131,12 +136,13 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     text-decoration: none;
+    margin: 20px;
   }
   
   .btn_center {
     font-size: 16px;
-    padding: 22px 157px;
-    margin-top: 36px;
+    padding: 22px;
+    width: 20%;
   }
   
   h2 {
@@ -219,6 +225,7 @@ body {
     font-weight: 700;
   }
   .sales_platform_list li p {
+    text-align: center;
     font-weight: lighter;
     font-size: 15px;
     line-height: 18px;
