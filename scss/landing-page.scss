@@ -71,12 +71,14 @@ body {
     color: #A5A5A5;
   }
   
-  .menu_nav a {
+  .menu_nav a,
+  .menu_nav p {
     padding: 35px 0;
     margin: 0 45px;
   }
   
-  .menu_nav a:hover {
+  .menu_nav a:hover,
+  .menu_nav p:hover {
     border-bottom: 4px solid #08A6E4;
     color: #000000;
   }
@@ -88,10 +90,6 @@ body {
     font-weight: 300;
     padding-top: 21px;
     padding-bottom: 17px;
-  }
-  
-  h4:hover {
-    cursor: default;
   }
   
   h1 {
@@ -108,7 +106,7 @@ body {
     background-size: contain;
     background-position: center bottom;
     background-repeat: no-repeat;
-    margin-top: 120px;
+    margin-top: 150px;
     box-shadow: 0px 100px 60px -100px #00000029;
   }
   
@@ -574,4 +572,14 @@ footer p {
 
 .footer_pic {
   padding-right: 20px;
+}
+
+// additional hovers:
+.to-top:hover,
+.to-why:hover,
+.bt-bens:hover,
+.to-prices:hover,
+.to-cont:hover,
+.logo_best_shop {
+  cursor: pointer
 }
