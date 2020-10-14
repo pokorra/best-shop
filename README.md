@@ -1,4 +1,4 @@
 # best-shop
-simple landing page made with html and css only
+simple landing page for both mobile and computer desktops, made with html and scss. 
 
-you can tale a look here: https://pokorra.github.io/best-shop
+you can take a look here: https://pokorra.github.io/best-shop
